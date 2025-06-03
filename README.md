@@ -84,3 +84,23 @@ make clean
 - Patch training speeds up convergence and reduces memory usage
 - Full-image validation reflects realistic performance
 - Learning rate is dynamically reduced if validation loss plateaus
+
+---
+
+## 📈 Training and Validation Loss Curves
+
+<p align="center">
+  <img src="assets/training_validation_loss.png" alt="Loss Curves" width="600"/>
+</p>
+
+---
+
+## 🖼️ SRCNN Output Comparison (DIV2K Sample)
+
+<p align="center">
+  <img src="assets/srcnn_output_comparison.png" alt="SRCNN Effect" width="800"/>
+</p>
+
+*From left to right: Low-Resolution Input, Super-Resolved Output (SRCNN), High-Resolution Ground Truth.*
+
+PSNR: **28.37 dB**, SSIM: **0.8332**
